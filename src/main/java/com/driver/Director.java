@@ -2,24 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.driver.model;
+package com.driver;
 
 /**
  *
  * @author Vikas_Singh
  */
-public class Movie {
+public class Director {
     private String name;
-    private int durationInMinutes;
+    private int numberOfMovies;
     private double imdbRating;
 
-    public Movie() {
-        super();
+    public Director() {
     }
 
-    public Movie(String name, int durationInMinutes, double imdbRating) {
+    public Director(String name, int numberOfMovies, double imdbRating) {
         this.name = name;
-        this.durationInMinutes = durationInMinutes;
+        this.numberOfMovies = numberOfMovies;
         this.imdbRating = imdbRating;
     }
 
@@ -31,12 +30,12 @@ public class Movie {
         this.name = name;
     }
 
-    public int getDurationInMinutes() {
-        return durationInMinutes;
+    public int getNumberOfMovies() {
+        return numberOfMovies;
     }
 
-    public void setDurationInMinutes(int durationInMinutes) {
-        this.durationInMinutes = durationInMinutes;
+    public void setNumberOfMovies(int numberOfMovies) {
+        this.numberOfMovies = numberOfMovies;
     }
 
     public double getImdbRating() {
@@ -46,8 +45,6 @@ public class Movie {
     public void setImdbRating(double imdbRating) {
         this.imdbRating = imdbRating;
     }
-    
-    
     
     
 }

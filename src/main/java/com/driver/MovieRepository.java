@@ -2,10 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package com.driver.repository;
+package com.driver;
 
-import com.driver.model.Director;
-import com.driver.model.Movie;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
